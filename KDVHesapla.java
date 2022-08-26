@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class NotHesapla {
+public class KDVHesapla {
     public static void main(String[] args) {
         Scanner gir = new Scanner(System.in);
         float kdvsizFiyat,kdvliFiyat,kdvOrani;
