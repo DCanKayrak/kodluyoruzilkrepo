@@ -6,11 +6,13 @@ public class GirilenSayiyaKadarCift {
         System.out.println("Sayi giriniz : ");
         int sayi = gir.nextInt();
         int ortalama = 0;
+        int counter = 0;
         for(int i=1;i<sayi;i++){
             if(i%3 == 0 && i%4 == 0){
+                counter++;
                 ortalama += i;
             }
         }
-        System.out.println(ortalama);
+        System.out.println(ortalama/counter);
     }
 }
